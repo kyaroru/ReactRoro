@@ -1,0 +1,31 @@
+{
+  "name": "kyaroru",
+  "version": "1.0.0",
+  "description": "My Personal Website",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kyaroru/carol.git"
+  },
+  "keywords": [
+    "kyaroru"
+  ],
+  "author": "Carol",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kyaroru/carol/issues"
+  },
+  "homepage": "https://github.com/kyaroru/carol#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "browser-sync": "^2.12.3",
+    "express": "^4.13.4",
+    "gulp": "^3.9.1",
+    "gulp-minify-css": "^1.2.4",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^2.2.0"
+  }
+}
