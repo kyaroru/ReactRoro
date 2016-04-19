@@ -10,4 +10,4 @@ before_script:
   - 'bower install' # install bower packages
 
 after_script:
-  - 'gulp' # or other command for build, run tests, etc
+  # - 'gulp' # or other command for build, run tests, etc
