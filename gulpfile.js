@@ -6,8 +6,8 @@ var rename = require('gulp-rename');
 
 var paths = {
   sass: ['./scss/**/*.scss'],
-  js:['./src/**/*.js'],
-  html:['./src/**/*.html']
+  js:['./app/**/*.js'],
+  html:['./app/**/*.html']
 };
 
 gulp.task('default', ['sass','watch'], function() {
@@ -15,7 +15,7 @@ gulp.task('default', ['sass','watch'], function() {
     server: {
       baseDir: './'
     },
-  })
+  });
 
 });
 
