@@ -6,4 +6,4 @@ before_script:
   - 'npm install' # install npm packages
 
 after_script:
-  - 'npm run build' # or other command for build, run tests, etc
+  - 'NODE_ENV=production && webpack -p --config ./webpack.prod.config.js' # or other command for build, run tests, etc
